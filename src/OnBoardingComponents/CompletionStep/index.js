@@ -28,6 +28,7 @@ export default function CompletionStep({
       <Button
         onClick={onLaunch}
         loading={loading}
+        className="w-full"
       >
         Launch Eden
       </Button>

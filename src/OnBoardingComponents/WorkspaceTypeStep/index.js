@@ -68,6 +68,7 @@ export default function WorkspaceTypeStep({
         onClick={onNext}
         disabled={!formData.workspaceType}
         loading={loading}
+        className="w-full"
       >
         Create Workspace
       </Button>

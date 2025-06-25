@@ -9,7 +9,7 @@ export default function Button({
   variant = "primary",
   className = ""
 }) {
-  const baseClasses = "flex h-[44px] w-full flex-row items-center justify-center rounded-[10px] text-[16px] font-semibold leading-[28px] tracking-[-0.01em] transition-all duration-300";
+  const baseClasses = "cursor-pointer flex h-[44px] flex-row items-center justify-center rounded-[10px] text-[16px] font-semibold leading-[28px] tracking-[-0.01em] transition-all duration-300";
   
   const variants = {
     primary: `bg-[#7B68EE] text-white hover:bg-[#6B5ADE] ${

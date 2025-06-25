@@ -1,4 +1,5 @@
 export const NAME_REGEX = /[0-9]/g
+
 export const USER_DETAILS = {
   fullName: '',
   displayName: '',
